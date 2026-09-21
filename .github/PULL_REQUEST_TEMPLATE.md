@@ -2,11 +2,11 @@
 
 ## 제출자
 
-이름:
+이름: 노찬훤
 
 ## 배포 링크
 
--
+- https://chanhwon1234.github.io/calculator/
 
 ## 체크리스트
 
