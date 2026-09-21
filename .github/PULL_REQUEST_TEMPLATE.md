@@ -1,4 +1,4 @@
-# [이름] 계산기 제출
+# [노찬훤] 계산기 제출
 
 ## 제출자
 
@@ -10,8 +10,8 @@
 
 ## 체크리스트
 
-- [ ] GitHub Pages 배포 링크가 정상 동작한다
-- [ ] `index.html`, `style.css`, `script.js` 3개 파일이 분리되어 있다
+- [X] GitHub Pages 배포 링크가 정상 동작한다
+- [X] `index.html`, `style.css`, `script.js` 3개 파일이 분리되어 있다
 
 ## 궁금한 점
 

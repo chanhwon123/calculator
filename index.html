@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파스텔 계산기</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts import -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="calculator-card">
+        <!-- 상단 디스플레이 -->
+        <div class="display">
+            <div class="expression" id="expression"></div>
+            <div class="result" id="result">0</div>
+        </div>
+
+        <!-- 버튼 그리드 -->
+        <div class="keypad">
+            <!-- Row 1 -->
+            <button class="btn btn-func" onclick="clearAll()">AC</button>
+            <button class="btn btn-func" onclick="deleteLast()">DEL</button>
+            <button class="btn btn-func" onclick="appendOperator('%')">%</button>
+            <button class="btn btn-op" onclick="appendOperator('÷')">÷</button>
+
+            <!-- Row 2 -->
+            <button class="btn btn-num" onclick="appendNumber('7')">7</button>
+            <button class="btn btn-num" onclick="appendNumber('8')">8</button>
+            <button class="btn btn-num" onclick="appendNumber('9')">9</button>
+            <button class="btn btn-op" onclick="appendOperator('×')">×</button>
+
+            <!-- Row 3 -->
+            <button class="btn btn-num" onclick="appendNumber('4')">4</button>
+            <button class="btn btn-num" onclick="appendNumber('5')">5</button>
+            <button class="btn btn-num" onclick="appendNumber('6')">6</button>
+            <button class="btn btn-op" onclick="appendOperator('-')">-</button>
+
+            <!-- Row 4 -->
+            <button class="btn btn-num" onclick="appendNumber('1')">1</button>
+            <button class="btn btn-num" onclick="appendNumber('2')">2</button>
+            <button class="btn btn-num" onclick="appendNumber('3')">3</button>
+            <button class="btn btn-op" onclick="appendOperator('+')">+</button>
+
+            <!-- Row 5 -->
+            <button class="btn btn-num span-2" onclick="appendNumber('0')">0</button>
+            <button class="btn btn-num" onclick="appendNumber('.')">.</button>
+            <button class="btn btn-equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
